@@ -1,0 +1,24 @@
+.inputView {
+  position: relative;
+  width: 100%;
+  height: 54px;
+  border-bottom: 2px solid rgb(2, 123, 227);
+}
+
+.borderBottomAnimationView {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  display: flex;
+  z-index: 1;
+}
+
+.borderBottomAnimationView-line {
+  width: 50%;
+  background-color: #ddd;
+  height: 2px;
+  border-top: 0.5px solid #fff;
+  border-bottom: 0.5px solid #fff;
+}

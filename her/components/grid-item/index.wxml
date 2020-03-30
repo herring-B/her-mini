@@ -1,0 +1,11 @@
+<view bindtap="jumpPage">
+  <image wx:if="{{icon}}"
+        src="{{icon}}"
+        class="itemIcon {{!!text ? '' : 'noItemText'}}"
+        mode='widthFix'>
+  </image>
+  <view wx:if="{{text}}"
+        class="itemText {{!!icon ? '' : 'noItemIcon'}}">
+    <text>{{text}}</text>
+  </view>
+</view>

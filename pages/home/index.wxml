@@ -1,0 +1,31 @@
+<view style="border: 5rpx solid #666;">边框线</view>
+===========
+<view style="background-color: red;">背景色</view>
+===========
+<view style="color: rgba(0,0,255,1)">文字颜色</view>
+===========
+<view style="display: flex;">
+  <view>横向</view>
+  <view>排列</view>
+</view>
+===========
+<view style="display: flex;">
+  <view>横向+</view>
+  <view>-排列</view>
+</view>
+===========
+<view style="width: 200rpx; border: 5rpx solid #666;">宽度 200rpx</view>
+===========
+<view style="height: 200rpx; border: 5rpx solid #666;">高度 200rpx</view>
+===========
+<view style="width: 200rpx; height: 200rpx; border: 5rpx solid #666; border-radius: 20rpx;">倒角20rpx</view>
+===========
+<view style="display: flex;">
+  <view>距离左侧</view>
+  <view style="margin-left: 100rpx;">100rpx</view>
+</view>
+===========
+<view style="display: flex;">
+  <view>距离上侧</view>
+  <view style="margin-top: 100rpx;">100rpx</view>
+</view>

@@ -1,0 +1,38 @@
+.list {
+  height: calc(100% - 1px);
+  width: calc(100% - 1px);
+  border-top: 1px solid #eee; 
+  border-left: 1px solid #eee; 
+  background-color: #fff;
+}
+.item {
+  height: 0;
+  float: left;
+  padding-bottom: calc(100% / 3 - 1px);
+  width: calc(100% / 3 - 1px);
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+.itemIcon {
+  padding-top: 13%;
+  padding-left: 25%;
+  width: 50%;
+  height: 50%;
+}
+.noItemText {
+  padding-top: 25% !important;
+}
+.itemText {
+  text-align: center;
+  width: 90%;
+  padding-left: 5%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  color: #444;
+  font-size: 14px;
+}
+.noItemIcon {
+  margin-top: 42%;
+}

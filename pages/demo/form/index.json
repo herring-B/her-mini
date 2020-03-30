@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "h-form": "/her/components/form/index"
+  }
+}

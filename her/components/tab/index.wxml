@@ -1,0 +1,9 @@
+<view class="body" style="background-color: {{bgColor}}">
+  <scroll-view scroll-x="true" bindscroll="scroll" style="width: 100%; white-space: nowrap;">
+    <view wx:for="{{list}}" wx:key="index" class="item tabItem{{index + 1}}" bindtap="changeTab" data-index="{{index}}" data-item="{{item}}">
+      <text class="{{selIndex === index ? 'selText' : 'noSelText'}}" style="color: {{textColor}}">{{!itemKey ? item : item[itemKey]}}</text>
+    </view>
+    <view style="clear: both;"></view>
+    <view class="line" animation="{{lineAnimation}}" style="background-color: {{lineColor}}"></view>
+  </scroll-view>
+</view>

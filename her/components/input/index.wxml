@@ -1,0 +1,7 @@
+<view class="inputView">
+  <input bindfocus="bindfocus"></input>
+  <view class="borderBottomAnimationView">
+    <view class="borderBottomAnimationView-line borderBottomAnimationView_left" animation="{{borderBottomAnimationView_leftAnimation}}"></view>
+    <view class="borderBottomAnimationView-line borderBottomAnimationView_right" animation="{{borderBottomAnimationView_rightAnimation}}"></view>
+  </view>
+</view>

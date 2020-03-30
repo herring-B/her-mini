@@ -1,0 +1,49 @@
+.body {
+  height: 96rpx;
+}
+.item {
+  position: relative;
+  min-width: 120rpx;
+  padding: 0 15rpx;
+  line-height: 96rpx;
+  text-align: center;
+  display: inline-block;
+}
+.line {
+  position: absolute;
+  height: 4rpx;
+  margin: 0 10px;
+  top: 93rpx;
+}
+.selText {
+  font-size: 18px;
+  font-weight: 600;
+  animation: selText .2s;
+}
+@keyframes selText
+{
+  from {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  to {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.noSelText {
+  font-size: 15px;
+  font-weight: 400;
+  animation: noSelText .2s;
+}
+@keyframes noSelText
+{
+  from {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  to {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

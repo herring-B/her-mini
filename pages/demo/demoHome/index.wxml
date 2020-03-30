@@ -1,0 +1,3 @@
+<h-grid>
+    <h-grid-item wx:for="{{gridList}}" wx:key="index" icon="{{item.icon}}" text="{{item.text}}" link="{{item.link}}"></h-grid-item>
+</h-grid>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "h-grid": "/her/components/grid/index",
+    "h-grid-item": "/her/components/grid-item/index"
+  }
+}

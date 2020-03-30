@@ -1,0 +1,59 @@
+/*
+  提供给九宫格插槽中间层使用，因组件内无法控制中间层样式与微信小程序无法修改子节点或父节点样式，故采用现有方式
+ */
+h-grid-item {
+  height: 0;
+  float: left;
+  padding-bottom: calc(100% / 3 - 1px);
+  width: calc(100% / 3 - 1px);
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+
+/* body类 开始 */
+.h-page {
+  padding: 16px;
+}
+/* body类 结束 */
+
+/* 标题&内容 开始 */
+.h-h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  padding: 1rem 0;
+  font-weight: 500;
+  margin: 0 0 2rem;
+}
+.h-content {
+  font-size: 1rem;
+  margin: 0 0 16px;
+}
+/* 标题&内容 结束 */
+
+/* 文字颜色 开始 */
+.text-primary {
+  color: #027be3;
+}
+.text-negative {
+  color: #c10015;
+}
+.text-warning {
+  color: #f2c037;
+}
+.text-grey-5 {
+  color: #bdbdbd;
+}
+/* 颜色 结束 */
+
+/* 背景颜色 开始 */
+.bg-primary {
+  background-color: #027be3;
+}
+.bg-negative {
+  background-color: #c10015;
+}
+.bg-warning {
+  background-color: #f2c037;
+}
+/* 背景颜色 结束 */

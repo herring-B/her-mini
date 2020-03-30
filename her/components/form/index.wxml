@@ -1,0 +1,5 @@
+<view class="formView">
+  <view wx:for="{{list}}">
+    <h-input wx:if="{{item.type === 'input'}}"></h-input>
+  </view>
+</view>

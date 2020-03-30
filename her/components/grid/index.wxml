@@ -1,0 +1,23 @@
+<view wx:if="{{list.length > 0}}"
+      class="list">
+  <view wx:for="{{list}}"
+        wx:key="index"
+        class="item"
+        bindtap="jumpPage"
+        data-link="{{item[linkKey]}}">
+    <image wx:if="{{!!item[iconKey]}}"
+          src="{{item[iconKey]}}"
+          class="itemIcon {{!!item[textKey] ? '' : 'noItemText'}}"
+          mode='widthFix'>
+    </image>
+    <view wx:if="{{!!item[textKey]}}"
+          class="itemText {{!!item[iconKey] ? '' : 'noItemIcon'}}">
+      <text>{{item[textKey]}}</text>
+    </view>
+  </view>
+  <view style="clear: both"></view>
+</view>
+<view wx:else class="list">
+  <slot></slot>
+  <view style="clear: both"></view>
+</view>
